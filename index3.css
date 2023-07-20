@@ -1,0 +1,61 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.addbtn2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.forcenter {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+}
+.addText2 {
+  margin-left: 10px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.cardcenter {
+  background-color: white;
+  width: 450px;
+  height: 330px;
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.forbtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+@media all and (min-width: 480px) and (max-width: 768px) { 
+
+
+}
+
+@media all and (max-width: 480px) {
+
+  
+.cardcenter {
+  background-color: white;
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.addText2{
+  display: none;
+}.forcenter {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+}
+}

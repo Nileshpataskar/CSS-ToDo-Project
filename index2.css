@@ -1,0 +1,88 @@
+.forfilter{
+    opacity: 10px;
+    filter: blur(10px);
+}
+.center{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.add_task{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    border-radius: 5px;
+    gap: 30px;
+    box-sizing: content-box;
+}
+.T1{
+padding: 20px 40px 20px 40px;
+display: flex;
+justify-content: space-between;
+background-color: #ededed;
+opacity: 0.6;
+border-radius: 5px;
+}
+.T2{
+display: flex;
+justify-content: center;
+}
+.editBox{
+    width: 80%;
+    height: 30px;
+    padding-left: 20px;
+    background-color: #ededed;
+    border: 1 px thin #e0dfdf;
+
+}
+.T3{
+    display: flex;
+    justify-content: end;
+  margin-right: 40px;
+}
+.btn{
+    background-color: #00a5ec;
+    height: 30px;
+    width: 90px;
+    border: white;
+    border-radius: 5px;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+
+.add_task{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    gap: 30px;
+    box-sizing: content-box;
+}
+
+}
+
+@media all and (max-width: 480px) {
+.add_task{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    gap: 30px;
+    box-sizing: content-box;
+}
+.editBox{
+    width: 80%;
+    height: 24px;
+    padding-left: 20px;
+    background-color: #ededed;
+    border: 1 px thin #e0dfdf;
+
+}
+}

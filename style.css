@@ -42,7 +42,7 @@ padding-left: 180px;
 
 }
 .card{
-    min-width: 280px;
+    width: 265px;
     height: 320px;
     padding-left:30px ;
     background-color: white;
